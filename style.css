@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+.container{
+    position: relative;
+    top: 100px;
+}
+
+header{
+    display: flex;
+    justify-content:space-around;
+    font-size: 20px;
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    box-shadow: 0 5px 10px rgba(186, 186, 186, 0.093) ;
+    opacity: 0.9;
+
+}
+
+.menu{
+    display: flex;
+    gap: 30px;
+}
+
+.menu nav ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.menu nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.menu nav ul li a:hover{
+    color: #38b8ff;
+}
+
+.menu button{
+    background-color:#38b8ff ;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.banner{
+    display: flex;
+    margin-top: 50px;
+    
+}
+
+.banner .text-banner{
+    width: 45%;
+    height: 500px;
+    margin-top: 50px;
+    font-size: 25px;
+    color: #343f52;
+    padding: 20px;
+    margin-left: 50px;
+
+}
+.banner .text-banner h1 span{
+    color: #38b8ff;
+}
+
+.banner .text-banner p{
+    color: #626b7d;
+    padding-top: 20px;
+}
+
+
+.banner .text-banner button{
+    background-color: #38b8ff;
+    color: white;
+    border: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.banner .img-banner{
+    width: 700px;
+    height: 100%;
+}
+
+.banner .img-banner img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.brand .text{
+    display: flex;
+    justify-content: center;
+    color: #626b7d;
+    font-size: 18px;
+    margin: 30px;
+}
+
+.brand .brand-logo{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.brand .brand-logo img{
+    width: 100px;
+}
+
+
+.service .text-service{
+    display: block;
+    margin-top: 200px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.service .text-service h4{
+    color: #38b8ff;
+}
+
+.service .text-service h2{
+    margin-top: 10px;
+    color: #343f52;
+    font-size: 40px;
+}
+
+
+.service .cards{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.service .cards .card{
+    width: 300px;
+    height: 100%;
+    text-align: center;
+    
+   
+}
+
+.service .cards .card img{
+    width: 100%;
+    height: 100%;
+}
+.service .cards .card h3{
+    color: #343f52;
+    margin-top: 20px;
+}
+
+.service .cards .card p{
+    color:#626b7d;
+    margin-top: 10px;
+}
+.service .cards .card button{
+    border:none;
+    background-color: white;
+    font-size:15px;
+    color: #248cc4;
+    font-weight: bold;
+    margin-top: 20px;
+}
